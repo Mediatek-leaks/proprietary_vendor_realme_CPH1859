@@ -18,6 +18,9 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/bin/cameraserver:system/bin/cameraserver \
 	vendor/oppo/CPH1859/proprietary/bin/mediaserver:system/bin/mediaserver \
 	vendor/oppo/CPH1859/proprietary/bin/pppd:system/bin/pppd \
+	vendor/oppo/CPH1859/proprietary/bin/debuggerd:system/bin/debuggerd \
+	vendor/oppo/CPH1859/proprietary/bin/vtservice:system/bin/vtservice \
+	vendor/oppo/CPH1859/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
 	vendor/oppo/CPH1859/proprietary/etc/init/audioserver.rc:system/etc/init/audioserver.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/cameraserver.rc:system/etc/init/cameraserver.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/mediadrmserver.rc:system/etc/init/mediadrmserver.rc \
@@ -51,6 +54,18 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/framework/wapicertstore.jar:system/framework/wapicertstore.jar \
 	vendor/oppo/CPH1859/proprietary/framework/wifi-service.jar:system/framework/wifi-service.jar \
 	vendor/oppo/CPH1859/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+	vendor/oppo/CPH1859/proprietary/lib/libcustom_nvram_mtk.so:system/lib/libcustom_nvram_mtk.so \
+	vendor/oppo/CPH1859/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
+	vendor/oppo/CPH1859/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
+	vendor/oppo/CPH1859/proprietary/lib/libimsma.so:system/lib/libimsma.so \
+	vendor/oppo/CPH1859/proprietary/lib/libimsma_adapt.so:system/lib/libimsma_adapt.so \
+	vendor/oppo/CPH1859/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
+	vendor/oppo/CPH1859/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
+	vendor/oppo/CPH1859/proprietary/lib/libnvram_mtk.so:system/lib/libnvram_mtk.so \
+	vendor/oppo/CPH1859/proprietary/lib/libnvram_platform_mtk.so:system/lib/libnvram_platform_mtk.so \
+	vendor/oppo/CPH1859/proprietary/lib/libnvram_sec_mtk.so:system/lib/libnvram_sec_mtk.so \
+	vendor/oppo/CPH1859/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
+	vendor/oppo/CPH1859/proprietary/lib/libvt_avsync.so:system/lib/libvt_avsync.so \
 	vendor/oppo/CPH1859/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 	vendor/oppo/CPH1859/proprietary/lib/libcamera_metadata.so:system/libcamera_metadata.so \
 	vendor/oppo/CPH1859/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
@@ -64,6 +79,22 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib/libhwui.so:system/lib/libhwui.so \
 	vendor/oppo/CPH1859/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libimsma_rtp.so:system/lib64/libimsma_rtp.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libimsma_socketwrapper.so:system/lib64/libimsma_socketwrapper.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libimsma.so:system/lib64/libimsma.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libimsma_adapt.so:system/lib64/libimsma_adapt.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libradio_metadata.so:system/lib64/libradio_metadata.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libnvram_mtk.so:system/lib64/libnvram_mtk.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libnvram_platform_mtk.so:system/lib64/libnvram_platform_mtk.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libnvram_sec_mtk.so:system/lib64/libnvram_sec_mtk.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libvt_avsync.so:system/lib64/libvt_avsync.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libmtk_vt_service.so:system/lib64/libmtk_vt_service.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libhwui.so:system/lib64/libhwui.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libcustom_nvram_mtk.so:system/lib64/libcustom_nvram_mtk.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
@@ -310,6 +341,43 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/vendor/lib/libvp8dec_sa.ca7.so:vendor/lib/libvp8dec_sa.ca7.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib/libvp8enc_sa.ca7.so:vendor/lib/libvp8enc_sa.ca7.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib/libvp9dec_sa.ca7.so:vendor/lib/libvp9dec_sa.ca7.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/egl/libGLES_mali.so:vendor/lib64/egl/libGLES_mali.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.primary.default.so:vendor/lib64/hw/audio.primary.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.primary.mt6771.so:vendor/lib64/hw/audio.primary.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.r_submix.default.so:vendor/lib64/hw/audio.r_submix.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.r_submix.mt6771.so:vendor/lib64/hw/audio.r_submix.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.usb.default.so:vendor/lib64/hw/audio.usb.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio.usb.mt6771.so:vendor/lib64/hw/audio.usb.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/audio_policy.stub.so:vendor/lib64/hw/audio_policy.stub.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/dfps.mt6771.so:vendor/lib64/hw/dfps.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/flp.default.so:vendor/lib64/hw/flp.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gps.default.so:vendor/lib64/hw/gps.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gralloc.default.so:vendor/lib64/hw/gralloc.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/gralloc.mt6771.so:vendor/lib64/hw/gralloc.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/kmsetkey.trustonic.so:vendor/lib64/hw/kmsetkey.trustonic.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/libMcGatekeeper.so:vendor/lib64/hw/libMcGatekeeper.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/libMcTeeKeymaster.so:vendor/lib64/hw/libMcTeeKeymaster.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:vendor/lib64/hw/libSoftGatekeeper.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/lights.mt6771.so:vendor/lib64/hw/lights.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/local_time.default.so:vendor/lib64/hw/local_time.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/memtrack.mt6771.so:vendor/lib64/hw/memtrack.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/power.default.so:vendor/lib64/hw/power.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/power.mt6771.so:vendor/lib64/hw/power.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/sound_trigger.primary.mt6771.so:vendor/lib64/hw/sound_trigger.primary.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/thermal.mt6771.so:vendor/lib64/hw/thermal.mt6771.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/hw/vibrator.default.so:vendor/lib64/hw/vibrator.default.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:vendor/lib64/mediacas/libclearkeycasplugin.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:vendor/lib64/mediadrm/libwvdrmengine.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:vendor/lib64/soundfx/libaudiopreprocessing.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:vendor/lib64/soundfx/libbundlewrapper.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libdownmix.so:vendor/lib64/soundfx/libdownmix.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libdynproc.so:vendor/lib64/soundfx/libdynproc.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libeffectproxy.so:vendor/lib64/soundfx/libeffectproxy.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libldnhncr.so:vendor/lib64/soundfx/libldnhncr.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:vendor/lib64/soundfx/libreverbwrapper.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/soundfx/libvisualizer.so:vendor/lib64/soundfx/libvisualizer.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/lib3a.ae.core.so:vendor/lib64/lib3a.ae.core.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/lib3a.ae.so:vendor/lib64/lib3a.ae.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/lib3a.af.core.so:vendor/lib64/lib3a.af.core.so \
@@ -340,6 +408,53 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcamalgo.asd.so:vendor/lib64/libcamalgo.asd.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcamalgo.dngop.so:vendor/lib64/libcamalgo.dngop.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcamalgo.eis.so:vendor/lib64/libcamalgo.eis.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libvcodec_utility.so:vendor/lib64/libvcodec_utility.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libvcodec_oal.so:vendor/lib64/libvcodec_oal.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libudf.so:vendor/lib64/libudf.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libsysenv.so:vendor/lib64/libsysenv.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libstrongswan.so:vendor/lib64/libstrongswan.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libstagefrighthw.so:vendor/lib64/libstagefrighthw.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libssl-ss.so:vendor/lib64/libssl-ss.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libspeech_enh_lib.so:vendor/lib64/libspeech_enh_lib.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libsimaka.so:vendor/lib64/libsimaka.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libpq_prot.so:vendor/lib64/libpq_prot.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libpq_cust_base.so:vendor/lib64/libpq_cust_base.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libnvram_sec.so:vendor/lib64/libnvram_sec.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libnvram_platform.so:vendor/lib64/libnvram_platform.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libnvram_daemon_callback.so:vendor/lib64/libnvram_daemon_callback.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libnvram.so:vendor/lib64/libnvram.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libmtkshifter_vendor.so:vendor/lib64/libmtkshifter_vendor.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libMtkOmxCore.so:vendor/lib64/libMtkOmxCore.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libmtklimiter_vendor.so:vendor/lib64/libmtklimiter_vendor.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libmtk_drvb.so:vendor/lib64/libmtk_drvb.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libmtcloader.so:vendor/lib64/libmtcloader.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libmsbc_mtk.so:vendor/lib64/libmsbc_mtk.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libmrdumpv.so:vendor/lib64/libmrdumpv.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libmmprofile.so:vendor/lib64/libmmprofile.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libminiui.so:vendor/lib64/libminiui.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libJpgEncPipe.so:vendor/lib64/libJpgEncPipe.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libion_mtk.so:vendor/lib64/libion_mtk.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libhydra.so:vendor/lib64/libhydra.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libhwm.so:vendor/lib64/libhwm.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libhwminijail.so:vendor/lib64/libhwminijail.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libgralloc_extra.so:vendor/lib64/libgralloc_extra.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libgpu_aux.so:vendor/lib64/libgpu_aux.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libged.so:vendor/lib64/libged.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libfile_op.so:vendor/lib64/libfile_op.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libdirect-coredump.so:vendor/lib64/libdirect-coredump.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcvsd_mtk.so:vendor/lib64/libcvsd_mtk.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcustom_nvram.so:vendor/lib64/libcustom_nvram.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcurl-ss.so:vendor/lib64/libcurl-ss.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcrypto-ss.so:vendor/lib64/libcrypto-ss.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libccci_util.so:vendor/lib64/libccci_util.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libbt-vendor.so:vendor/lib64/libbt-vendor.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libbluetooth_relayer.so:vendor/lib64/libbluetooth_relayer.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:vendor/lib64/libbluetooth_mtk_pure.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libbluetooth_mtk.so:vendor/lib64/libbluetooth_mtk.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libbluetooth_hw_test.so:vendor/lib64/libbluetooth_hw_test.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libbluetoothem_mtk.so:vendor/lib64/libbluetoothem_mtk.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libbessound_hd_mtk_vendor.so:vendor/lib64/libbessound_hd_mtk_vendor.so \
+	vendor/oppo/CPH1859/proprietary/vendor/lib64/libaudio_param_parser-vnd.so:vendor/lib64/libaudio_param_parser-vnd.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcamalgo.fdft.so:vendor/lib64/libcamalgo.fdft.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcamalgo.flicker.so:vendor/lib64/libcamalgo.flicker.so \
 	vendor/oppo/CPH1859/proprietary/vendor/lib64/libcamalgo.fsc.so:vendor/lib64/libcamalgo.fsc.so \
