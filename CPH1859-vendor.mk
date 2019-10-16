@@ -61,6 +61,8 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
 	vendor/oppo/CPH1859/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
 	vendor/oppo/CPH1859/proprietary/lib/libtinyxmlbp.so:system/lib/libtinyxmlbp.so \
+	vendor/oppo/CPH1859/proprietary/lib/libhwui.so:system/lib/libhwui.so \
+	vendor/oppo/CPH1859/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
