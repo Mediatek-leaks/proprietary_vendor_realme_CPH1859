@@ -19,32 +19,14 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),CPH1859)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libdpframework
+LOCAL_MODULE := SoterService
 LOCAL_MODULE_OWNER := oppo
-LOCAL_SRC_FILES := proprietary/vendor/lib/libdpframework.so
-LOCAL_MULTILIB := 64
+LOCAL_SRC_FILES := proprietary/app/SoterService/SoterService.apk
+LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libaudiocustparam_vendor
-LOCAL_MODULE_OWNER := oppo
-LOCAL_SRC_FILES := proprietary/vendor/lib/libaudiocustparam_vendor.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libmtkcam_fwkutils
-LOCAL_MODULE_OWNER := oppo
-LOCAL_SRC_FILES := proprietary/vendor/lib64/libmtkcam_fwkutils.so
-LOCAL_MULTILIB := 64
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
 endif
