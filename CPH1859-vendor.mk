@@ -122,7 +122,9 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/framework/mediatek-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telephony-common.jar \
 	vendor/oppo/CPH1859/proprietary/framework/mtk-wifi-service.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mtk-wifi-service.jar \
 	vendor/oppo/CPH1859/proprietary/framework/org.simalliance.openmobileapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/org.simalliance.openmobileapi.jar \
-	vendor/oppo/CPH1859/proprietary/framework/vendor.oppo.hardware.biometrics.face-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.oppo.hardware.biometrics.face-V1.0-java.jar
+	vendor/oppo/CPH1859/proprietary/framework/vendor.oppo.hardware.biometrics.face-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.oppo.hardware.biometrics.face-V1.0-java.jar \
+	vendor/oppo/CPH1859/proprietary/lib/drm/mtkdrm/libdrmctaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/drm/mtkdrm/libdrmctaplugin.so \
+	vendor/oppo/CPH1859/proprietary/lib/drm/mtkdrm/libdrmmtkplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/drm/mtkdrm/libdrmmtkplugin.so
 
 
 
