@@ -73,8 +73,40 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/bin/tinyplay:$(TARGET_COPY_OUT_SYSTEM)/bin/tinyplay \
 	vendor/oppo/CPH1859/proprietary/bin/tunman:$(TARGET_COPY_OUT_SYSTEM)/bin/tunman \
 	vendor/oppo/CPH1859/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
-	vendor/oppo/CPH1859/proprietary/bin/wmt_check_patch:$(TARGET_COPY_OUT_SYSTEM)/bin/wmt_check_patch
-
+	vendor/oppo/CPH1859/proprietary/bin/wmt_check_patch:$(TARGET_COPY_OUT_SYSTEM)/bin/wmt_check_patch \
+	vendor/oppo/CPH1859/proprietary/etc/init/aal.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aal.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/aee_aed.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aee_aed.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aee_aed64.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/atci_service_sys.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/atci_service_sys.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/bootlogoupdater.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/bootlogoupdater.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/common_dcs.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/common_dcs.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/emdlogger1.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/emdlogger1.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/emdlogger2.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/emdlogger2.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/emdlogger3.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/emdlogger3.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/emdlogger5.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/emdlogger5.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/em_svr.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/em_svr.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/ged_srv.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/ged_srv.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/init_connectivity.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init_connectivity.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/mdlogger.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/md_monitor.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/md_monitor.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/mobile_log_d.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/mobile_log_d.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/mtk_camdumpserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/mtk_camdumpserver.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/neo.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/neo.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/netdiag.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/netdiag.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/self-init-system.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/self-init-system.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/sn.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/sn.rc \
+	vendor/oppo/CPH1859/proprietary/etc/init/terserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/terserver.rc \
+	vendor/oppo/CPH1859/proprietary/etc/permissions/org.ifaa.android.manager.permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.ifaa.android.manager.permissions.xml \
+	vendor/oppo/CPH1859/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.simalliance.openmobileapi.xml \
+	vendor/oppo/CPH1859/proprietary/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/a2dp_audio_policy_configuration.xml \
+	vendor/oppo/CPH1859/proprietary/etc/aee-config:$(TARGET_COPY_OUT_SYSTEM)/etc/aee-config \
+	vendor/oppo/CPH1859/proprietary/etc/apns-version.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-version.xml \
+	vendor/oppo/CPH1859/proprietary/etc/emdlogger_usb_config.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/emdlogger_usb_config.prop \
+	vendor/oppo/CPH1859/proprietary/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/hearing_aid_audio_policy_configuration.xml \
+	vendor/oppo/CPH1859/proprietary/etc/sar_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sar_config.xml \
+	vendor/oppo/CPH1859/proprietary/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/spn-conf.xml
 
 
 
