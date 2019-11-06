@@ -106,7 +106,23 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/etc/emdlogger_usb_config.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/emdlogger_usb_config.prop \
 	vendor/oppo/CPH1859/proprietary/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/hearing_aid_audio_policy_configuration.xml \
 	vendor/oppo/CPH1859/proprietary/etc/sar_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sar_config.xml \
-	vendor/oppo/CPH1859/proprietary/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/spn-conf.xml
+	vendor/oppo/CPH1859/proprietary/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/spn-conf.xml \
+	vendor/oppo/CPH1859/proprietary/framework/android.frameworks.faceservice-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/android.frameworks.faceservice-V1.0-java.jar \
+	vendor/oppo/CPH1859/proprietary/framework/CustomPropInterface.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/CustomPropInterface.jar \
+	vendor/oppo/CPH1859/proprietary/framework/ifaamanager.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/ifaamanager.jar \
+	vendor/oppo/CPH1859/proprietary/framework/log-handler.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/log-handler.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-common.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-framework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-framework.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-framework-net.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-framework-net.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-common.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-ims-extension-plugin.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-ims-extension-plugin.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-services.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-services.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-telecom-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telecom-common.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-telephony-base.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telephony-base.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mediatek-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mediatek-telephony-common.jar \
+	vendor/oppo/CPH1859/proprietary/framework/mtk-wifi-service.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/mtk-wifi-service.jar \
+	vendor/oppo/CPH1859/proprietary/framework/org.simalliance.openmobileapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/org.simalliance.openmobileapi.jar \
+	vendor/oppo/CPH1859/proprietary/framework/vendor.oppo.hardware.biometrics.face-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.oppo.hardware.biometrics.face-V1.0-java.jar
 
 
 
