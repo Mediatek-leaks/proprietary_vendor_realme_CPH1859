@@ -189,8 +189,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib/libffmpeg_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libffmpeg_utils.so \
 	vendor/oppo/CPH1859/proprietary/lib/libfile_op_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfile_op_mtk.so \
 	vendor/oppo/CPH1859/proprietary/lib/libflashphotographycheck_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libflashphotographycheck_jni.so \
-	vendor/oppo/CPH1859/proprietary/lib/libfmcust.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmcust.so \
-	vendor/oppo/CPH1859/proprietary/lib/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfmjni.so \
 	vendor/oppo/CPH1859/proprietary/lib/libfpspolicy_fw.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfpspolicy_fw.so \
 	vendor/oppo/CPH1859/proprietary/lib/libFrameRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFrameRecord.so \
 	vendor/oppo/CPH1859/proprietary/lib/libfw_drmutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfw_drmutils.so \
@@ -369,8 +367,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib64/libffmpeg_utils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libffmpeg_utils.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libfile_op_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfile_op_mtk.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libflashphotographycheck_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libflashphotographycheck_jni.so \
-	vendor/oppo/CPH1859/proprietary/lib64/libfmcust.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmcust.so \
-	vendor/oppo/CPH1859/proprietary/lib64/libfmjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfmjni.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libfpspolicy_fw.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfpspolicy_fw.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libFrameRecord.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libfw_drmutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfw_drmutils.so \
