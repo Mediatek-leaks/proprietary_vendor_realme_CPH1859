@@ -207,6 +207,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib/libui_ext_fwk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libui_ext_fwk.so \
 	vendor/oppo/CPH1859/proprietary/lib/libwatchdog.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwatchdog.so \
 	vendor/oppo/CPH1859/proprietary/lib/vendor.oppo.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.oppo.hardware.biometrics.face@1.0.so \
+	vendor/oppo/CPH1859/proprietary/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
 	vendor/oppo/CPH1859/proprietary/lib64/drm/mtkdrm/libdrmctaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/drm/mtkdrm/libdrmctaplugin.so \
 	vendor/oppo/CPH1859/proprietary/lib64/drm/mtkdrm/libdrmmtkplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/drm/mtkdrm/libdrmmtkplugin.so \
 	vendor/oppo/CPH1859/proprietary/lib64/android.frameworks.faceservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.frameworks.faceservice@1.0.so \
@@ -309,4 +310,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib64/libudf.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libudf.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libui_ext_fwk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libui_ext_fwk.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libwatchdog.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwatchdog.so \
+	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.camera.camdump@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.camera.camdump@1.0.so \
+	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
+	vendor/oppo/CPH1859/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
 	vendor/oppo/CPH1859/proprietary/lib64/vendor.oppo.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.oppo.hardware.biometrics.face@1.0.so
