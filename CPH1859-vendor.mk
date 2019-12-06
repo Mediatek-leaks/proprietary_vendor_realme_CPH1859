@@ -119,7 +119,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib/drm/mtkdrm/libdrmctaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/drm/mtkdrm/libdrmctaplugin.so \
 	vendor/oppo/CPH1859/proprietary/lib/drm/mtkdrm/libdrmmtkplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/drm/mtkdrm/libdrmmtkplugin.so \
 	vendor/oppo/CPH1859/proprietary/lib/android.frameworks.faceservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.frameworks.faceservice@1.0.so \
-	vendor/oppo/CPH1859/proprietary/lib/adbconnection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/adbconnection.so \
+	vendor/oppo/CPH1859/proprietary/lib/libadbconnection.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libadbconnection.so \
 	vendor/oppo/CPH1859/proprietary/lib/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-resampler.so \
 	vendor/oppo/CPH1859/proprietary/lib/libbessound_hd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbessound_hd_mtk.so \
 	vendor/oppo/CPH1859/proprietary/lib/libbinderserviceproxy.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbinderserviceproxy.so \
@@ -183,7 +183,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib/libmtk_drvb_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtk_drvb_sys.so \
 	vendor/oppo/CPH1859/proprietary/lib/libmtklimiter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtklimiter.so \
 	vendor/oppo/CPH1859/proprietary/lib/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkshifter.so \
-	vendor/oppo/CPH1859/proprietary/lib/liboidisplayinput.so:$(TARGET_COPY_OUT_SYSTEM)/lib/liboidisplayinput.so \
 	vendor/oppo/CPH1859/proprietary/lib/libpcap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpcap.so \
 	vendor/oppo/CPH1859/proprietary/lib/libpowerhalwrap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpowerhalwrap.so \
 	vendor/oppo/CPH1859/proprietary/lib/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprotobuf-cpp-full.so \
@@ -212,7 +211,7 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/lib64/drm/mtkdrm/libdrmmtkplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/drm/mtkdrm/libdrmmtkplugin.so \
 	vendor/oppo/CPH1859/proprietary/lib64/android.frameworks.faceservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.frameworks.faceservice@1.0.so \
 	vendor/oppo/CPH1859/proprietary/lib64/android.frameworks.vr.composer@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.frameworks.vr.composer@1.0.so \
-	vendor/oppo/CPH1859/proprietary/lib64/adbconnection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/adbconnection.so \
+	vendor/oppo/CPH1859/proprietary/lib64/libadbconnection.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libadbconnection.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaudio-resampler.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libbessound_hd_mtk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbessound_hd_mtk.so \
 	vendor/oppo/CPH1859/proprietary/lib64/libbinderserviceproxy.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libbinderserviceproxy.so \
