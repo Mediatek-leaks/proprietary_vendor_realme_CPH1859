@@ -68,7 +68,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/bin/tinypcminfo:$(TARGET_COPY_OUT_SYSTEM)/bin/tinypcminfo \
 	vendor/oppo/CPH1859/proprietary/bin/tinyplay:$(TARGET_COPY_OUT_SYSTEM)/bin/tinyplay \
 	vendor/oppo/CPH1859/proprietary/bin/tunman:$(TARGET_COPY_OUT_SYSTEM)/bin/tunman \
-	vendor/oppo/CPH1859/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
 	vendor/oppo/CPH1859/proprietary/bin/wmt_check_patch:$(TARGET_COPY_OUT_SYSTEM)/bin/wmt_check_patch \
 	vendor/oppo/CPH1859/proprietary/etc/init/aee_aed.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aee_aed.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aee_aed64.rc \
