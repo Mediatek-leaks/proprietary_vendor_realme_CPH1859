@@ -28,10 +28,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/bin/common_dcs:$(TARGET_COPY_OUT_SYSTEM)/bin/common_dcs \
 	vendor/oppo/CPH1859/proprietary/bin/connsyslogger:$(TARGET_COPY_OUT_SYSTEM)/bin/connsyslogger \
 	vendor/oppo/CPH1859/proprietary/bin/datafree:$(TARGET_COPY_OUT_SYSTEM)/bin/datafree \
-	vendor/oppo/CPH1859/proprietary/bin/emdlogger1:$(TARGET_COPY_OUT_SYSTEM)/bin/emdlogger1 \
-	vendor/oppo/CPH1859/proprietary/bin/emdlogger2:$(TARGET_COPY_OUT_SYSTEM)/bin/emdlogger2 \
-	vendor/oppo/CPH1859/proprietary/bin/emdlogger3:$(TARGET_COPY_OUT_SYSTEM)/bin/emdlogger3 \
-	vendor/oppo/CPH1859/proprietary/bin/emdlogger5:$(TARGET_COPY_OUT_SYSTEM)/bin/emdlogger5 \
 	vendor/oppo/CPH1859/proprietary/bin/em_svr:$(TARGET_COPY_OUT_SYSTEM)/bin/em_svr	 \
 	vendor/oppo/CPH1859/proprietary/bin/fatlabel:$(TARGET_COPY_OUT_SYSTEM)/bin/fatlabel \
 	vendor/oppo/CPH1859/proprietary/bin/fsck.fat:$(TARGET_COPY_OUT_SYSTEM)/bin/fsck.fat \
@@ -72,10 +68,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/etc/init/aee_aed.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aee_aed.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/aee_aed64.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/common_dcs.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/common_dcs.rc \
-	vendor/oppo/CPH1859/proprietary/etc/init/emdlogger1.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/emdlogger1.rc \
-	vendor/oppo/CPH1859/proprietary/etc/init/emdlogger2.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/emdlogger2.rc \
-	vendor/oppo/CPH1859/proprietary/etc/init/emdlogger3.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/emdlogger3.rc \
-	vendor/oppo/CPH1859/proprietary/etc/init/emdlogger5.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/emdlogger5.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/em_svr.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/em_svr.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/ged_srv.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/ged_srv.rc \
 	vendor/oppo/CPH1859/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
@@ -95,7 +87,6 @@ PRODUCT_COPY_FILES += \
 	vendor/oppo/CPH1859/proprietary/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/a2dp_audio_policy_configuration.xml \
 	vendor/oppo/CPH1859/proprietary/etc/aee-config:$(TARGET_COPY_OUT_SYSTEM)/etc/aee-config \
 	vendor/oppo/CPH1859/proprietary/etc/apns-version.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-version.xml \
-	vendor/oppo/CPH1859/proprietary/etc/emdlogger_usb_config.prop:$(TARGET_COPY_OUT_SYSTEM)/etc/emdlogger_usb_config.prop \
 	vendor/oppo/CPH1859/proprietary/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/hearing_aid_audio_policy_configuration.xml \
 	vendor/oppo/CPH1859/proprietary/etc/sar_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sar_config.xml \
 	vendor/oppo/CPH1859/proprietary/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/spn-conf.xml \
